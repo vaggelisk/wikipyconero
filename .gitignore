@@ -1,7 +1,9 @@
 config.yml
 node_modules/*
 node_modules/.*
-node_modules/*
 node_modules/.
 node_modules
 
+.idea
+
+yarn.lock
