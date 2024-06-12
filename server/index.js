@@ -38,6 +38,7 @@ WIKI.kernel.init()
 // Register exit handler
 // ----------------------------------------
 
+
 process.on('SIGINT', () => {
   WIKI.kernel.shutdown()
 })

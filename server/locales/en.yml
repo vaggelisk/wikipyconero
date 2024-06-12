@@ -1,3 +1,5 @@
 admin:
   api.title: 'API Access 35'
-  auth.title: 'Authentication 36'
+  auth.title: 'Authentication 88'
+common:
+  sidebar.root: 'Home'
