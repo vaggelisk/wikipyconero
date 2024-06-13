@@ -14,7 +14,9 @@
 4. Choose node version
 
 
-    nvm use 16
+    nvm use 18
+
+    export NODE_OPTIONS=--openssl-legacy-provider && npx yarn build
 
 5. For developing wikipyconero, especially client-part, it's needed 
    
@@ -29,9 +31,11 @@ to have this command
 
 
 
+## Deploy on Server
 
+   >  cd /var/www/pyconero.gr/node
 
-
+   >  sudo -u www-data git pull
 
 ## IMPORTANT 
 

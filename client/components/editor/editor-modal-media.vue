@@ -2,7 +2,7 @@
   v-card.editor-modal-media.animated.fadeInLeft(flat, tile, :class='`is-editor-` + editorKey')
     v-container.pa-3(grid-list-lg, fluid)
       v-layout(row, wrap)
-        v-flex(xs12, lg9)
+        v-flex(xs12, lg4)
           v-card.radius-7.animated.fadeInLeft.wait-p1s(:light='!$vuetify.theme.dark', :dark='$vuetify.theme.dark')
             v-card-text
               .d-flex
@@ -126,8 +126,8 @@
                   v-icon(left) mdi-playlist-plus
                   span {{$t('common:actions.insert')}}
 
-        v-flex(xs12, lg3)
-          v-card.radius-7.animated.fadeInRight.wait-p3s(:light='!$vuetify.theme.dark', :dark='$vuetify.theme.dark')
+        v-flex(xs12, lg8)
+          v-card.mt-0.radius-7.animated.fadeInRight.wait-p3s(:light='!$vuetify.theme.dark', :dark='$vuetify.theme.dark')
             v-card-text
               .d-flex
                 v-toolbar.radius-7(:color='$vuetify.theme.dark ? `teal` : `teal lighten-5`', dense, flat, height='44')
