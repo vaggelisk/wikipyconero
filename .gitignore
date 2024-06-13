@@ -6,6 +6,9 @@ node_modules
 
 data/
 
+assets/*.hot-update.json
+assets/*.hot-update.js
+
 .idea
 
 yarn.lock

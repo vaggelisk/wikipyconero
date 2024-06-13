@@ -37,6 +37,12 @@ to have this command
 
    >  sudo -u www-data git pull
 
+   >   systemctl restart  wiki.service
+
+For finding configuration of the service of the wiki, you have to go to
+
+   > sudo vi /etc/systemd/system/wiki.service
+
 ## IMPORTANT 
 
 The translation staff is getting cached in the browser, so you could not see the changes
